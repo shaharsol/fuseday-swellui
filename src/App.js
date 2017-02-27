@@ -43,8 +43,8 @@ export default class App extends Component {
 
     onFilteredChanged() {
         const filtered = !this.state.filtered;
-        this.setState({filtered});
-        this.fetchSpot(this.state.marker, filtered);
+
+        this.fetchSpot(this.state.marker, filtered).then(()=>this.setState({filtered}));
     }
 
     render() {
@@ -63,6 +63,7 @@ export default class App extends Component {
                     <div className="filter-btn-wrap">
                         <div className="filter-btn" onClick={this.onFilteredChanged}>
                             {filtered ? 'Filtered' : 'All'}
+                            <div className="counter">{pics.length}</div>
                         </div>
                     </div>
                 </div>
