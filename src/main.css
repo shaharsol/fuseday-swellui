@@ -21,8 +21,8 @@ body, .main, .pics-back {
     margin: 5vh auto;
     text-align: center;
     -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 1);
-    box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
 }
 
 .pics-wrap {
@@ -33,6 +33,10 @@ body, .main, .pics-back {
     overflow-y: auto;
     text-align: center;
     display: inline-block;
+}
+
+.pics-wrap img {
+    max-width: 70vw;
 }
 
 .close-btn {
@@ -48,8 +52,8 @@ body, .main, .pics-back {
     text-align: center;
     font-family: Roboto;
     -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 1);
-    box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
 }
 
 .filter-btn-wrap {
@@ -76,8 +80,8 @@ body, .main, .pics-back {
     min-width: 5em;
     pointer-events: all;
     -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 1);
-    box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
 }
 
 .counter {
@@ -92,6 +96,6 @@ body, .main, .pics-back {
     border-radius: 20px;
     color: white;
     -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 1);
-    box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 1);
 }
