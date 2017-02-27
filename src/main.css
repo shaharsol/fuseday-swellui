@@ -1,0 +1,71 @@
+body,.main, .pics-back{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+    margin:0;
+}
+
+.pics-back{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pics-view{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);    /*left:0;*/
+    height:90vh;
+    /*width:90vw;*/
+    margin:5vh auto;
+    text-align: center;
+}
+
+.pics-wrap{
+    position:relative;
+    width:auto;
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.close-btn{
+    position: absolute;
+    top:-15px;
+    left:-15px;
+    height:30px;
+    width:30px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.filter-btn-wrap{
+    position: absolute;
+    top:-15px;
+    height:30px;
+    width:100%;
+    text-align: center;
+    pointer-events: none;
+}
+.filter-btn{
+    position: relative;
+    height:30px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: bold;
+    font-family: Roboto;
+    min-width: 5em;
+    pointer-events: all;
+}
