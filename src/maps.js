@@ -16,8 +16,8 @@ import MarkerClusterer from "react-google-maps/lib/addons/MarkerClusterer";
 
 const MarkerClustererExampleGoogleMap = withGoogleMap(props => (
     <GoogleMap
-        defaultZoom={1}
-        defaultCenter={{lat: 25.0391667, lng: 121.525}}
+        defaultZoom={2}
+        defaultCenter={{lat: 36.0, lng: 0.0}}
     >
         <MarkerClusterer
             averageCenter
